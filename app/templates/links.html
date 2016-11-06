@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='links.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+        <title>Сайт Серёжи Убогова</title>
+    </head>
+    <body>
+        <header>
+            <div class="home">
+                <a href="/home">Главная</a>
+            </div>
+            <div class="gallery">
+                <a href="/gallery">Галерея</a>
+            </div>
+            <div class="links">
+                <a href="/links">Ссылки</a>
+            </div>
+            <hr>
+        </header>
+        <main>
+            <div class="link">Моя почта: <a href="mailto:sergeiubogov@mail.ru">sergeiubogov@mail.ru</a>
+            </div>
+            <div class="link">
+            Мой github: <a href="https://github.com/Sergey-Ubogov" target="_blank">github.com/Sergey-Ubogov</a>
+            </div>
+            <div class="link">
+            Контакт: <a href="https://vk.com/ubogov" target="_blank">vk.com/ubogov</a>
+            </div>
+        </main>
+        <footer>
+            <hr>
+            &#169;Убогов Сергей.
+        </footer>
+    </body>
+</html>

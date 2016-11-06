@@ -1,0 +1,119 @@
+.home,
+.links,
+.gallery
+{
+    display: inline;
+}
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+
+main > a:hover
+{
+    border-bottom: 1px dashed LightSeaGreen;
+}
+
+a:visited
+{
+    color: #fff;
+}
+
+a:active
+{
+    color: #c0c0c0;
+}
+
+.gallery,
+.links
+{
+    border: 1px solid gray;
+}
+
+.home
+{
+    background-color: LightSeaGreen; 
+}
+
+.home:hover,
+.gallery:hover,
+.links:hover
+{   
+
+    background-color: #800080;
+}
+
+header
+{
+    font-family: "segoe script", "segoe print", "gabriola";
+    font-size: 150%;
+}
+
+body
+{
+    color: #fff;
+    background-color: #000;
+    margin: 0;
+}
+
+main
+{
+    margin: 100px;
+    font-family: "segoe script", "segoe print", "gabriola";
+    font-size: 150%;
+    height: 80%;
+}
+
+footer
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    text-align: right;
+}
+
+hr
+{
+    margin: 0;
+    border-color: gray;
+}
+
+.photo > img
+{
+    border-radius: 10px;
+    border: 2px solid gray;
+    float: left;
+    width: 20%;
+}
+
+@media screen and (max-width: 360px) {
+    body
+    {
+        font-size: 500%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body
+    {
+         font-size: 350%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    body
+    {
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body
+    {
+         font-size: 250%;
+    }
+}
